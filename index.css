@@ -102,6 +102,7 @@ header img {
   justify-content: center;
 }
 .pContainer {
+   
   padding: 2rem;
   border-radius: 2rem;
   background: var(--hover);
@@ -123,3 +124,7 @@ header img {
   justify-content: flex-start;
   flex-direction: column;
 }
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
