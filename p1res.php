@@ -14,6 +14,12 @@ error_reporting(E_ERROR | E_PARSE);?>
     <title>Practical 1</title>
   </head>
   <style type="text/css">
+     body{
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+     
     h1{
       margin-left: 2rem;
     }
