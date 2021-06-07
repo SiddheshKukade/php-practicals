@@ -84,6 +84,10 @@ header img {
   border: none;
   outline: none;
   font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
 }
 .buttonContainer > button > svg {
   height: 1rem;
