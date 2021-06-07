@@ -5,6 +5,7 @@
   --primary-text: #ffffff;
   --secondary-text: #8899a6;
   font-family: Cascadia Code;
+  font-family: "Fira Code", monospace;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -46,7 +47,7 @@ header img {
   border-radius: 1rem;
 }
 .hero1 {
-  flex: 0.3;
+  flex: 0.2;
   height: 100%;
 }
 .hero1 > img {
@@ -62,7 +63,7 @@ header img {
 }
 
 .hero2 {
-  flex: 0.7;
+  flex: 0.8;
 }
 .hero2 > span {
   color: var(--secondary-text);
