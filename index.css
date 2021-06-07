@@ -63,6 +63,8 @@ header img {
 }
 
 .hero2 {
+  margin-left: 1.5rem;
+
   flex: 0.8;
 }
 .hero2 > span {
@@ -88,4 +90,32 @@ header img {
 }
 .buttonContainer > button:hover {
   background: var(--hover);
+}
+.practicalsContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pContainer {
+  padding: 2rem;
+  border-radius: 2rem;
+  background: var(--hover);
+  color: var(--primary-text);
+  margin-top: 2rem;
+}
+.pContainer:hover {
+  background: var(--card);
+}
+.pContainer > h4 {
+  color: var(--secondary-text);
+}
+.pContainer > h1 > svg {
+  height: 1.5rem;
+}
+.Practcontainer {
+  max-width: 80vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
